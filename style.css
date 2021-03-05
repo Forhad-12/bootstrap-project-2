@@ -18,8 +18,6 @@ header {
     left: 0;
     z-index: 9999;
 }
-header .row .col-2 {
-}
 header .row .col-2 .header-logo {
     position: relative;
     padding: 35px 0;
@@ -40,11 +38,13 @@ header .row .col-2 .header-logo img {
     position: inherit;
     z-index: 22;
 }
-
+header .row .col-6.forhad {
+    display:flex;
+    align-items: center;
+}
 
 header .row .col-6 nav ul {
     margin: 0 !important;
-    padding: 30px 0;
 }
 header .row .col-6 nav ul li {
     display: inline-block;
@@ -86,8 +86,9 @@ header .row .col-6 nav ul li a.active {
     opacity: 1;
 }
 
-header .row .col-4 .d-flex {
-    padding: 20px 0;
+header .row .col-4.forhad {
+    display: flex;
+    align-items: center;
 }
 header .row .col-4 .d-flex .search-icon {
     width: 15%;
